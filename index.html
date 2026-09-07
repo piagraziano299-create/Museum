@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Il Mio Museo Virtuale</title>
+    <!-- Carichiamo il motore 3D open source -->
+    <script src="https://aframe.io"></script>
+  </head>
+  <body>
+    <!-- Questa è la scena 3D del museo -->
+    <a-scene>
+      <!-- Il Cielo (sfondo azzurro) -->
+      <a-sky color="#87CEEB"></a-sky>
+
+      <!-- Il Pavimento (un piano grigio) -->
+      <a-plane position="0 0 0" rotation="-90 0 0" width="30" height="30" color="#CCCCCC"></a-plane>
+
+      <!-- Un cubo rosso di prova al centro della stanza -->
+      <a-box position="0 1 -3" rotation="0 45 0" color="#FF0000" width="1" height="1" depth="1"></a-box>
+    </a-scene>
+  </body>
+</html>
